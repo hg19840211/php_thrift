@@ -1,0 +1,26 @@
+{
+    "name": "php_thrift",
+    "description": "php_thrift",
+    "type": "project",
+    "keywords": [],
+    "homepage": "http://www.nmzhifu.com",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Dream",
+            "email": "9986423@qq.com"
+        }
+               
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "apache/thrift": "^0.13.0"
+    },
+    
+    "autoload": {
+		"files": [
+		  "public/query/Types.php",
+		  "public/query/Api.php"
+		]
+    }
+}
